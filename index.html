@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tailwind landing page</title>
+      <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex h-16 items-center justify-between gap-6">
+                <a href="#" class="text-2xl font-bold text-slate-900">+ Project</a>
+                <ul class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
+                    <li><a href="#" class="hover:text-slate-900 transition">Product</a></li>
+                    <li><a href="#" class="hover:text-slate-900 transition">Solutions</a></li>
+                    <li><a href="#" class="hover:text-slate-900 transition">Resources</a></li>
+                    <li><a href="#" class="hover:text-slate-900 transition">Pricing</a></li>
+                </ul>
+                <div class="flex items-center gap-4">
+                    <a href="#" class="hidden md:inline text-sm text-slate-700 hover:text-slate-900 transition">Log in</a>
+                    <button class="rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 transition">Get AI free</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+
+    <section class="gradient-to-r from-orange-400 to-white items-center justify-center h-screen mt-4">
+        <div class="text-center"> 
+        <div class="text-center ">
+            <h1 class="text-black text-3xl font-bold">Write, plan, share.</h1>
+            <h1 class="text-black text-3xl font-bold">With AI at your side.</h1>
+        </div>
+        <p class="text-white-50 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, labore. Ducimus, provident.</p>
+        <div class="relative">
+            <button class="absolute flex-row top-10 left-120 p-2 bg-black text-white">Get AI free  -></button>
+            <button class="absolute flex-row  top-10 left-160 p-2 bg-blue-700 text-white">Request a demo
+            </button>
+        </div>
+        <div class="absolute top-80 left-120"> 
+        <!-- <img src="https://lens.usercontent.google.com/image?vsrid=CJeOgdGbv7PCbxACGAEiJDEwYWY4NTdiLTE4MWUtNDU0Ny05MWVhLThjYWMyN2RlMjQwNzJ8IgJ0cChqQnQKLmxmZS1kdW1teTo0Nzk4NWZhZC01NDYzLTQwMjMtODQwMy03Y2RkZTM0ZDI2NDYSQgpAL2Jucy90cC9ib3JnL3RwL2Jucy9sZW5zLWZyb250ZW5kLWFwaS9wcm9kLmxlbnMtZnJvbnRlbmQtYXBpLzMxMjiJv8SeocqVAw&gsessionid=Iu9dfHyMgQe9bS1_ZdMeCa36OuPsFxST_23kULtYGSHtRerScQ40mg" alt="hero-image"> -->
+        <img class="min-w-52 max-w-80  max-h-60 min-h-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBR3YweJr8wtlBmfburps8yS7Kl9VkdVROTG7JfY_Hg&s=10" alt="hero-image">
+        </div>
+         </div>
+
+         <!-- task cards -->
+          <div>
+            <div class="absolute top-70 left-30 w-50 h-18 border-2 border-gray-300 rounded-4 shadow-md p-2 m-2">
+                <p><i class="text-pink-400 bg-pink-300"> 📋 </i> Tasks</p>
+                <p class="text-sm">12 tasks completed today</p>
+            </div>
+            <div class="absolute top-70 right-20 w-50 h-18 border-2 border-gray-300 rounded-4 shadow-md p-4 m-2">
+                <p><i class="text-green-500 bg-green-300"> ✓  </i> Project Status</p>
+                <p class="text-">On Track</p>
+            </div>
+            <div class="absolute top-110 right-30 w-50 h-18 border-2 border-gray-300 rounded-4 shadow-md p-4 m-2">
+                <p><i class="text-blue-500 bg-blue-300"> 👥 </i> Team Activity</p>
+                <p>+5 Online</p>
+            </div>
+          </div>
+          <div>
+            <div class="fixed bottom-6 right-6 z-50 "><i class="text-white bg-black  rounded-full p-2">💬</i></div>
+          </div>
+
+    </section>
+</body>
+</html>
